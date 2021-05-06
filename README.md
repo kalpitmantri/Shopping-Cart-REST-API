@@ -34,6 +34,24 @@
 - Postman extension can be used for testing !
 - Supercharge your API workflow with Postman! Build, test, and document your APIs faster.
 - You can now fire up postman and then perform several operations on the REST API.
+- Another easiest Way Means Best way By Using curl Install Curl on any Platform eg Windows or Linux
+      Likewise U can Check Some Eg Of Test API
+            
+	    ---------   signup   ----------------
+ 
+        1) Command for Curl :  curl -d "email=user1234@gmail.com&password=1sdfghdfg89" -X POST http://localhost:3000/user/signup
+
+
+         U Will See as an  Responce : {"message":"User Successfully Created!!"}
+
+
+            -------------- Login  --------------------
+
+         2) Command for Curl :  curl -d "email=user1234@gmail.com&password=1sdfghdfg89" -X POST http://localhost:3000/user/login
+
+
+          U Will See as an  Responce : {"message":"Auth               Successful!!","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1ha3dhbmFrYXJ0aWs1M0BnbWFpbC5jb20iLCJJZCI6IjYwOTQ1Y2VhOWNmY2I1MzE2OGVkYzQ1NSIsImlhdCI6MTYyMDMzNjMwMCwiZXhwIjoxNjIwMzM5OTAwfQ.8d2Egyq0glSMBnCSiP7KCk0aR7itfKNYVHvEKc24_PA"}
+
 
 ## Available API Routes
 
