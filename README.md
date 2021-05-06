@@ -47,7 +47,7 @@
 
             -------------- Login  --------------------
 
-         2) Command for Curl :  curl -d "email=makwanakartik53@gmail.com&password=123456789" -X POST http://localhost:3000/user/login
+         2) Command for Curl :  curl -d "email=user1234@gmail.com&password=1sdfghdfg89" -X POST http://localhost:3000/user/login
 
 
           U Will See as an  Responce : {"message":"Auth               Successful!!","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1ha3dhbmFrYXJ0aWs1M0BnbWFpbC5jb20iLCJJZCI6IjYwOTQ1Y2VhOWNmY2I1MzE2OGVkYzQ1NSIsImlhdCI6MTYyMDMzNjMwMCwiZXhwIjoxNjIwMzM5OTAwfQ.8d2Egyq0glSMBnCSiP7KCk0aR7itfKNYVHvEKc24_PA"}
